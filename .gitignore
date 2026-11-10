@@ -1,0 +1,29 @@
+# Local Python environment and generated files
+/.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Dataset files: keep local until source, version, and redistribution rights are confirmed
+/*.csv
+/capstone/**/*.csv
+/capstone/*.csv
+*.zip
+
+# Original notebook snapshots may contain personal Colab metadata
+/capstone/originals/
+
+# Personal project records and internal portfolio drafts
+/capstone/Bi-weelkly/
+/capstone/발표/
+/capstone/진행/
+/capstone/최종 발표 대본.docx
+/PORTFOLIO_DRAFT.md
+/capstone/PORTFOLIO_PLAN.md
